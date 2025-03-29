@@ -1,0 +1,56 @@
+.rectangle {
+    margin-left: -20px;
+    width: 50px;
+    height: 7px;
+    background-color: #000; /* 绿色 */
+    border: 2px solid #000;   /* 黑色边框（可选） */
+}
+
+
+body {
+    margin: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Helvetica;
+    
+}
+
+
+.social-icon {
+    float: left;
+    font-size: 25px;
+    color: #333;
+    margin: 0 0px;
+    transition: all 0.3s;
+  }
+  .social-icon[aria-label="GitHub"]:hover {
+    color: #6e5494; /* GitHub 紫色 */
+  }
+  
+  .social-icon[aria-label="Instagram"]:hover {
+    color: #F56040; /* Instagram 粉色 */
+  }
+  
+  .social-icon[aria-label="LinkedIn"]:hover {
+    color: #0a66c2; /* LinkedIn 蓝色 */
+  }
+
+  .social-icon[aria-label="Location of HKUST"]:hover {
+    color: #0a66c2; /* LinkedIn 蓝色 */
+  }
+
+.title{
+    font-size: 30px;
+}
+.subtitle{
+    font-size: 25px;
+}
+.code {
+    font-family: "Menlo";
+}
+
+.greycode {
+    font-family: "Menlo";
+    background-color: #f5f5f5;
+    border-radius: 4px; 
+}
